@@ -1,2 +1,2 @@
 # Hangman
-Hangman game created using jQuery and AJAX
+Hangman game created using jQuery and AJAX.
