@@ -19,7 +19,6 @@ function readDictionary() {
             result = Object.keys(data);
             let randLineNum = Math.floor(Math.random() * result.length);
             word = result[randLineNum];
-            word;
         } 
     });
 }
