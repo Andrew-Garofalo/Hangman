@@ -31,7 +31,7 @@ function initializeAndPickWord() {
     incorrectGuesses = 0;
 
     //set initial image for hangman
-    image_container.css({"background-image":"url('/assets/images/0.jpg')",
+    image_container.css({"background-image":"url('assets/images/0.jpg')",
             "background-size":"25% 75%", "background-repeat":"no-repeat", "background-position":"center center"});
             $("img").css("background")
     guess_cont.html("");
@@ -110,7 +110,7 @@ function keyBoard(event) {
             if(noMatch) {
                 //Wrong guess
                 incorrectGuesses++;
-                image_container.css({"background-image":"url('/assets/images/" + incorrectGuesses + ".jpg')",
+                image_container.css({"background-image":"url('assets/images/" + incorrectGuesses + ".jpg')",
                 "background-size":"25% 75%", "background-repeat":"no-repeat", "background-position":"center center"});
                 $("img").css("background");
 
