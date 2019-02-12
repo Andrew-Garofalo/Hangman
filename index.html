@@ -16,16 +16,22 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>Welcome to Hangman!</header>
-    <div style="text-align: center; font-size:2em; height:2vh;">
-        <label>Type your guess here: </label>
-        <input type="text" id="guess" maxlength="1" style="width:30px; background: #D4A190;" />
-    </div>
+    <header>
+        <h1>Welcome to Hangman!</h1>
+        <div class="type-guess-cont" >
+            <label class="type-guess">Type your guess here: </label>
+            <input type="text" id="guess" maxlength="1" />
+        </div>
+    </header>
+
+    <div class="content">
     
-    <div id="image-container"></div>
+        <div id="image-container"></div>
 
-    <div id="guess-container"></div>
+        <div id="guess-container"></div>
 
-    <script src="/assets/javascript/main.js"></script>
+    </div>
+
+    <script src="assets/javascript/main.js"></script>
 </body>
 </html>
